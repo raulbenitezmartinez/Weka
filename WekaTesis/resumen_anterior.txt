@@ -1,0 +1,10 @@
+Tiempo de ejecucion: 26690 segundos... 7,4 horas
+4 archivos que dieron error
+18 clasificadores
+41 columnas en archivos split
+812 archivos mensuales
+808 archivos quincenales
+796 archivos semanales
+
+split = 43488 - 18
+crossEstratificado = 43488 - 18

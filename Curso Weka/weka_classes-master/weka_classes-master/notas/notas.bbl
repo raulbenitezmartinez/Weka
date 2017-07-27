@@ -1,0 +1,465 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global}
+    \entry{aloise2009np}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b1c2417eef13b5ae6a6de636ccee9bf2}{%
+           family={Aloise},
+           family_i={A\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+        {{hash=b146e287daf8a0e43f0558b44e799634}{%
+           family={Deshpande},
+           family_i={D\bibinitperiod},
+           given={Amit},
+           given_i={A\bibinitperiod}}}%
+        {{hash=7bb981a79a1c9c28df155eaf022cd6ba}{%
+           family={Hansen},
+           family_i={H\bibinitperiod},
+           given={Pierre},
+           given_i={P\bibinitperiod}}}%
+        {{hash=b98430470600e3c7562c6efad868eacc}{%
+           family={Popat},
+           family_i={P\bibinitperiod},
+           given={Preyas},
+           given_i={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{462ae54ffbaf820d2004cf8233b376f2}
+      \strng{fullhash}{65c314eeeeac4bc7eb808c127ecdae1b}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Machine learning}
+      \field{number}{2}
+      \field{title}{NP-hardness of Euclidean sum-of-squares clustering}
+      \field{volume}{75}
+      \field{year}{2009}
+      \field{pages}{245\bibrangedash 248}
+      \range{pages}{4}
+    \endentry
+    \entry{arthur2007k}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=9490d5d9532dc965f9f300a7a5c9fa13}{%
+           family={Arthur},
+           family_i={A\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+        {{hash=b6fa64c3195f752823d0759db3cbca91}{%
+           family={Vassilvitskii},
+           family_i={V\bibinitperiod},
+           given={Sergei},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{organization}{2}{%
+        {Society for Industrial}%
+        {Applied Mathematics}%
+      }
+      \strng{namehash}{c59974bc84d7d18b3663c2ec2a4eaad7}
+      \strng{fullhash}{c59974bc84d7d18b3663c2ec2a4eaad7}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the eighteenth annual ACM-SIAM symposium on Discrete algorithms}
+      \field{title}{k-means++: The advantages of careful seeding}
+      \field{year}{2007}
+      \field{pages}{1027\bibrangedash 1035}
+      \range{pages}{9}
+    \endentry
+    \entry{bahmani2012scalable}{article}{}
+      \name{author}{5}{}{%
+        {{hash=c16d7309f1ff508dcc07ce9945102f88}{%
+           family={Bahmani},
+           family_i={B\bibinitperiod},
+           given={Bahman},
+           given_i={B\bibinitperiod}}}%
+        {{hash=b69680fb4282030f235cc0aa7bd18583}{%
+           family={Moseley},
+           family_i={M\bibinitperiod},
+           given={Benjamin},
+           given_i={B\bibinitperiod}}}%
+        {{hash=b8e887de21ca59f638e8521e3cbc8701}{%
+           family={Vattani},
+           family_i={V\bibinitperiod},
+           given={Andrea},
+           given_i={A\bibinitperiod}}}%
+        {{hash=8b41fe0754fd3864ac9f18e92f6daf24}{%
+           family={Kumar},
+           family_i={K\bibinitperiod},
+           given={Ravi},
+           given_i={R\bibinitperiod}}}%
+        {{hash=b6fa64c3195f752823d0759db3cbca91}{%
+           family={Vassilvitskii},
+           family_i={V\bibinitperiod},
+           given={Sergei},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {VLDB Endowment}%
+      }
+      \strng{namehash}{3c23db85261f8bc8bb2f2aabf1f2394f}
+      \strng{fullhash}{7ba24c9e398d15d8ff360d1bb6e22a2a}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the VLDB Endowment}
+      \field{number}{7}
+      \field{title}{Scalable k-means++}
+      \field{volume}{5}
+      \field{year}{2012}
+      \field{pages}{622\bibrangedash 633}
+      \range{pages}{12}
+    \endentry
+    \entry{bezdek1984fcm}{article}{}
+      \name{author}{3}{}{%
+        {{hash=05c40b6bd3672fcf93a67ea2b4220e25}{%
+           family={Bezdek},
+           family_i={B\bibinitperiod},
+           given={James\bibnamedelima C},
+           given_i={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=a7fb5380f5d565382001ad436b8b1834}{%
+           family={Ehrlich},
+           family_i={E\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+        {{hash=5a293b45dc0ad31577d7caa77052cb53}{%
+           family={Full},
+           family_i={F\bibinitperiod},
+           given={William},
+           given_i={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{d39a85cb8b9ae8be79975eeffdf550d0}
+      \strng{fullhash}{d39a85cb8b9ae8be79975eeffdf550d0}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Geosciences}
+      \field{number}{2}
+      \field{title}{FCM: The fuzzy c-means clustering algorithm}
+      \field{volume}{10}
+      \field{year}{1984}
+      \field{pages}{191\bibrangedash 203}
+      \range{pages}{13}
+    \endentry
+    \entry{crispdmpdf}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.the-modeling-agency.com/crisp-dm.pdf}}
+      \field{note}{Accedido: 2016-mayo}
+      \field{title}{{CRISP-DM 1.0} Step-by-step data mining guide}
+    \endentry
+    \entry{dougherty1995supervised}{inproceedings}{}
+      \true{moreauthor}
+      \name{author}{3}{}{%
+        {{hash=43dc6b84c6aee54f1f89e03322044ad3}{%
+           family={Dougherty},
+           family_i={D\bibinitperiod},
+           given={James},
+           given_i={J\bibinitperiod}}}%
+        {{hash=f2a149b8d68fbffd75e8ece81b80708f}{%
+           family={Kohavi},
+           family_i={K\bibinitperiod},
+           given={Ron},
+           given_i={R\bibinitperiod}}}%
+        {{hash=03d7c039edad82103bc272d037128f69}{%
+           family={Sahami},
+           family_i={S\bibinitperiod},
+           given={Mehran},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{36a8e0d489ee8f1e9ecbdce8dcae7603}
+      \strng{fullhash}{12d35e7c3cdac27e6c3c1a4944032c22}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Machine learning: proceedings of the twelfth international conference}
+      \field{title}{Supervised and unsupervised discretization of continuous features}
+      \field{volume}{12}
+      \field{year}{1995}
+      \field{pages}{194\bibrangedash 202}
+      \range{pages}{9}
+    \endentry
+    \entry{asumdmarticle}{misc}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://developer.ibm.com/predictiveanalytics/2015/10/16/have-you-seen-asum-dm/}}
+      \field{note}{Accedido: 2016-mayo}
+      \field{title}{Have you seen ASUM-DM?}
+    \endentry
+    \entry{hodge2004survey}{article}{}
+      \name{author}{2}{}{%
+        {{hash=82c0edbf5f55f029528dcea6e1562c52}{%
+           family={Hodge},
+           family_i={H\bibinitperiod},
+           given={Victoria\bibnamedelima J},
+           given_i={V\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b13a3b75a04116c7652e1fc135570be8}{%
+           family={Austin},
+           family_i={A\bibinitperiod},
+           given={Jim},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{71107ee50271c8d217a72e60c14308dd}
+      \strng{fullhash}{71107ee50271c8d217a72e60c14308dd}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Artificial Intelligence Review}
+      \field{number}{2}
+      \field{title}{A survey of outlier detection methodologies}
+      \field{volume}{22}
+      \field{year}{2004}
+      \field{pages}{85\bibrangedash 126}
+      \range{pages}{42}
+    \endentry
+    \entry{Hu07}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=935878b7e9071b3ba4b2cd27c85877aa}{%
+           family={Hu},
+           family_i={H\bibinitperiod},
+           given={Shuhua},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{935878b7e9071b3ba4b2cd27c85877aa}
+      \strng{fullhash}{935878b7e9071b3ba4b2cd27c85877aa}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Estimation error}
+      \field{year}{2007}
+    \endentry
+    \entry{irani1993multi}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f14e26c8eb7e594a13e531ee9ad380db}{%
+           family={Irani},
+           family_i={I\bibinitperiod},
+           given={Keki\bibnamedelima B},
+           given_i={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{f14e26c8eb7e594a13e531ee9ad380db}
+      \strng{fullhash}{f14e26c8eb7e594a13e531ee9ad380db}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Multi-interval discretization of continuous-valued attributes for classification learning}
+      \field{year}{1993}
+    \endentry
+    \entry{oct2014poll}{misc}{}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.kdnuggets.com/polls/2014/analytics-data-mining-data-science-methodology.html}}
+      \field{note}{Accedido: 2016-mayo}
+      \field{title}{{KD Nuggets} What main methodology are you using for your analytics, data mining, or data science projects?}
+    \endentry
+    \entry{kotsiantis2006discretization}{article}{}
+      \name{author}{2}{}{%
+        {{hash=455d9b7c9c8ff82a0a3673712365237c}{%
+           family={Kotsiantis},
+           family_i={K\bibinitperiod},
+           given={Sotiris},
+           given_i={S\bibinitperiod}}}%
+        {{hash=ff04e714386a10358e5f20bc2ff0afb1}{%
+           family={Kanellopoulos},
+           family_i={K\bibinitperiod},
+           given={Dimitris},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{6c2f53ce0ad913f4c58560f553c4cd06}
+      \strng{fullhash}{6c2f53ce0ad913f4c58560f553c4cd06}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GESTS International Transactions on Computer Science and Engineering}
+      \field{number}{1}
+      \field{title}{Discretization techniques: A recent survey}
+      \field{volume}{32}
+      \field{year}{2006}
+      \field{pages}{47\bibrangedash 58}
+      \range{pages}{12}
+    \endentry
+    \entry{larose2014discovering}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f45b54cf6b748bed49e92281c9083d28}{%
+           family={Larose},
+           family_i={L\bibinitperiod},
+           given={Daniel\bibnamedelima T},
+           given_i={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{f45b54cf6b748bed49e92281c9083d28}
+      \strng{fullhash}{f45b54cf6b748bed49e92281c9083d28}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Discovering knowledge in data: an introduction to data mining}
+      \field{year}{2014}
+    \endentry
+    \entry{quinlan1992learning}{inproceedings}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=993fbcef3796a3c07fbb28feb96d0e8d}{%
+           family={Quinlan},
+           family_i={Q\bibinitperiod},
+           given={John\bibnamedelima R},
+           given_i={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Singapore}%
+      }
+      \strng{namehash}{13f3f9f6cf50b584bf56ceb26627bec5}
+      \strng{fullhash}{13f3f9f6cf50b584bf56ceb26627bec5}
+      \field{sortinit}{Q}
+      \field{sortinithash}{15867262911a166ca2270ec58a0e3fe9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{5th Australian joint conference on artificial intelligence}
+      \field{title}{Learning with continuous classes}
+      \field{volume}{92}
+      \field{year}{1992}
+      \field{pages}{343\bibrangedash 348}
+      \range{pages}{6}
+    \endentry
+    \entry{ruppert1980trimmed}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ca15388bebf8dfd3024fe7557ae32d5c}{%
+           family={Ruppert},
+           family_i={R\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+        {{hash=6aeb704e3d63cf9f8a97958c681d6d7d}{%
+           family={Carroll},
+           family_i={C\bibinitperiod},
+           given={Raymond\bibnamedelima J},
+           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{3a54cfd6a085ecb642134f3accf541d1}
+      \strng{fullhash}{3a54cfd6a085ecb642134f3accf541d1}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{number}{372}
+      \field{title}{Trimmed least squares estimation in the linear model}
+      \field{volume}{75}
+      \field{year}{1980}
+      \field{pages}{828\bibrangedash 838}
+      \range{pages}{11}
+    \endentry
+    \entry{witten2011data}{book}{}
+      \name{author}{3}{}{%
+        {{hash=a05810254b3460a705b74882da47f531}{%
+           family={Witten},
+           family_i={W\bibinitperiod},
+           given={I.H.},
+           given_i={I\bibinitperiod}}}%
+        {{hash=41db6855941f48d0c693979786902442}{%
+           family={Frank},
+           family_i={F\bibinitperiod},
+           given={E.},
+           given_i={E\bibinitperiod}}}%
+        {{hash=eeef092f48b19cc3d78ff53af91c2a52}{%
+           family={Hall},
+           family_i={H\bibinitperiod},
+           given={M.A.},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Science}%
+      }
+      \strng{namehash}{bf4b04bb3f887e4b59f154b3b9a97ac6}
+      \strng{fullhash}{bf4b04bb3f887e4b59f154b3b9a97ac6}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780080890364}
+      \field{series}{The Morgan Kaufmann Series in Data Management Systems}
+      \field{title}{Data Mining: Practical Machine Learning Tools and Techniques}
+      \field{year}{2011}
+      \verb{url}
+      \verb https://books.google.com.py/books?id=bDtLM8CODsQC
+      \endverb
+    \endentry
+    \entry{xu2005survey}{article}{}
+      \true{moreauthor}
+      \name{author}{2}{}{%
+        {{hash=af1f6890b49ac6de6ee9af944bdf1990}{%
+           family={Xu},
+           family_i={X\bibinitperiod},
+           given={Rui},
+           given_i={R\bibinitperiod}}}%
+        {{hash=58f7e47e9d72f27bae0b59cf8e6b0f42}{%
+           family={Wunsch},
+           family_i={W\bibinitperiod},
+           given={Donald},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Ieee}%
+      }
+      \strng{namehash}{f2555459391c34f672bcc8590b94d043}
+      \strng{fullhash}{5608a9a656ab5a877fac3c278ea027af}
+      \field{sortinit}{X}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Networks, IEEE Transactions on}
+      \field{number}{3}
+      \field{title}{Survey of clustering algorithms}
+      \field{volume}{16}
+      \field{year}{2005}
+      \field{pages}{645\bibrangedash 678}
+      \range{pages}{34}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

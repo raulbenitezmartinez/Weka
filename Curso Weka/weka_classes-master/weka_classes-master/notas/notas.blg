@@ -1,0 +1,15 @@
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'notas.blg'
+[49] biber:290> INFO - === mié may 11, 2016, 22:43:10
+[65] Biber.pm:347> INFO - Reading 'notas.bcf'
+[177] Biber.pm:741> INFO - Found 17 citekeys in bib section 0
+[190] Biber.pm:3150> INFO - Processing section 0
+[240] Biber.pm:3307> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[241] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
+[243] bibtex.pm:985> INFO - Found BibTeX data source 'biblio.bib'
+[756] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[756] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[756] Biber.pm:3027> INFO - Sorting list 'nty/global' of type 'entry' with scheme 'nty' and locale 'en-US'
+[756] Biber.pm:3031> INFO - No sort tailoring available for locale 'en-US'
+[811] bbl.pm:519> INFO - Writing 'notas.bbl' with encoding 'UTF-8'
+[813] bbl.pm:615> INFO - Output to notas.bbl

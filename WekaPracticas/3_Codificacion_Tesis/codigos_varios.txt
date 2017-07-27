@@ -1,0 +1,89 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.FileReader;
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+import weka.core.converters.CSVLoader;
+import weka.core.Attribute;
+import weka.core.Instances;//Clase para los ejemplos.
+import weka.core.Instance;
+import weka.core.FastVector;//Clase para agrupar las predicciones de la clase Evaluation.
+import weka.classifiers.Classifier;//Clase para conjunto de clasificadores.
+import weka.classifiers.bayes.NaiveBayes;
+import weka.classifiers.trees.J48;
+import weka.classifiers.rules.PART;
+import weka.classifiers.rules.DecisionTable;
+import weka.classifiers.trees.DecisionStump;
+import weka.classifiers.Evaluation;//Clase para evaluar los clasificadores.
+import weka.classifiers.evaluation.NominalPrediction;
+
+public class BIYML {
+	
+	public static void main(String[] args) throws Exception {
+
+		//#########################################
+		//STEP 1: Express the problem with features
+		//#########################################
+		
+		//Debemos obtener la cantidad de lineas del archivo de datos y la cantidad de elementos de una linea.
+		String archivo = "C:\\Users\\raul\\Google Drive\\TESIS-BI-ML\\Weka\\WekaPracticas\\3_Codificacion_Tesis\\datos.csv";
+		boolean tiene_cabecera = true;
+		BufferedReader datos = null;
+		String linea = null;
+		String[] splited = null;
+		int cantidad_de_ejemplos = 0;//Cantidad de ejemplos para nuestro modelo.
+		int cantidad_de_atributos = 0;//12 atributos numericos y 1 atributo de clase.
+		int cantidad_de_etiquetas = 0;//El atributo de clase tiene dos posibles valores: 0 o 1.
+		int pos_atributo_clase = 0;//Weka indexara de 0 a 12 los 13 atributos. En el indice 12 estara el atributo de clase.
+		ArrayList<String> vector_etiquetas = new ArrayList<String>();
+		Set<String> hs = new HashSet<>();
+		
+		try{
+			
+			datos = new BufferedReader(new FileReader(archivo));
+			linea = datos.readLine();
+			splited = linea.split(";");
+			cantidad_de_atributos = splited.length;
+			
+			if(tiene_cabecera == false){
+				vector_etiquetas.add(splited[splited.length - 1]);
+				cantidad_de_ejemplos++;
+			}
+			
+			//Aqui obtendremos la cantidad de lineas del fichero de datos.
+			while((linea = datos.readLine()) != null){
+				splited = linea.split(";");
+				vector_etiquetas.add(splited[splited.length - 1]);
+				System.out.println("\nEL NUEVO EJEMPLO TIENE LA ETIQUETA: " + splited[splited.length - 1]);
+				cantidad_de_ejemplos++;
+			}
+			
+			//add elements to al, including duplicates
+			//vector_etiquetas.remove(0);
+			hs.addAll(vector_etiquetas);
+			vector_etiquetas.clear();
+			vector_etiquetas.addAll(hs);
+			cantidad_de_etiquetas = vector_etiquetas.size();
+			pos_atributo_clase = cantidad_de_atributos - 1;
+			
+		}catch(IOException e){
+			System.err.println("Este es el problema: " + e);
+			e.printStackTrace();
+		}finally{
+			try {
+				datos.close();
+			}catch (Exception e){
+			}
+		}
+		
+		System.out.println("\nCANTIDAD DE EJEMPLOS: " + cantidad_de_ejemplos);
+		System.out.println("\nCANTIDAD DE ATRIBUTOS: " + cantidad_de_atributos);
+		System.out.println("\nCANTIDAD DE ETIQUETAS: " + cantidad_de_etiquetas);
+		System.out.println("\nPOSICION DEL ATRIBUTO DE CLASE: " + pos_atributo_clase);		
+
+		
+	}
+}

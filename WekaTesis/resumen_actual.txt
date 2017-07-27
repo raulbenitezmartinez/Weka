@@ -1,0 +1,53 @@
+Tiempo de ejecucion: 4821 + 3698 + 1848 segundos... 2 horas 53 minutos
+1 archivos que dieron error (10381)
+18 clasificadores
+
+41 columnas en archivos split
+
+309 archivos mensuales
+229 archivos quincenales
+127 archivos semanales
+
+split = 43488 - 18
+crossEstratificado = 43488 - 18
+
+ETL_Tesis -- DW_Tesis -- DW_Tesis3
+ETL_Tesis2 -- DW_Tesis2 (Reporte incluido en el DW)
+ETL_Tesis4 -- DW_Tesis4 (Reporte incluido en el DW)
+ETL_TesisBIML -- 
+
+ETL_Tesis1 = ETL_Tesis3 ?
+ETL_Tesis2 = ETL_Tesis4 ?
+
+DW_Tesis -- RPT_Max
+DW_Tesis3 -- RPT_Max90
+
+Split problem
+
+11075
+11769
+14501
+17704
+21561
+230
+3100
+3115
+368
+4437
+852
+11446
+1333
+19581
+1960
+311
+3178
+321
+429
+7517
+12189
+12980
+
+Nada_ROCA NaN
+Nada_PRCA NaN
+
+4500 ocurrencias de NaN

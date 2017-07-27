@@ -1,0 +1,11 @@
+@relation house-weka.filters.unsupervised.instance.RemoveRange-Rfirst-7
+
+@attribute size numeric
+@attribute land numeric
+@attribute rooms numeric
+@attribute granite numeric
+@attribute extra_bathroom numeric
+@attribute price numeric
+
+@data
+975,2947,5,1,1,?

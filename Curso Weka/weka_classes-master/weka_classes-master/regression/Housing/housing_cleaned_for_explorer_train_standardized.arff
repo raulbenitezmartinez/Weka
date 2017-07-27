@@ -1,0 +1,17 @@
+@relation house-weka.filters.unsupervised.instance.RemoveRange-R8-weka.filters.unsupervised.attribute.Standardize
+
+@attribute size numeric
+@attribute land numeric
+@attribute rooms numeric
+@attribute granite numeric
+@attribute extra_bathroom numeric
+@attribute price numeric
+
+@data
+0.606956,-0.64955,1.224745,-0.801784,-1.46385,324500
+0.176075,-0.431393,0,1.069045,0.58554,466000
+1.373525,-0.409249,0,-0.801784,0.58554,425900
+-1.121581,0.59214,-1.224745,1.069045,-1.46385,387120
+-1.422196,-0.547033,-1.224745,-0.801784,0.58554,312100
+0.616977,2.051168,1.224745,1.069045,0.58554,603000
+-0.229756,-0.606083,0,-0.801784,0.58554,383400
